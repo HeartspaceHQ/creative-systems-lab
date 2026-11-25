@@ -1,0 +1,30 @@
+{
+  "name": "Aster Lane (invented example brand)",
+  "version": "1.0.0",
+  "palette": {
+    "ink": "#1f2a44",
+    "paper": "#f4efe6",
+    "clay": "#c4623f",
+    "moss": "#5f7a4f",
+    "sand": "#e2c08d"
+  },
+  "neutrals_allowed": true,
+  "forbidden_colours": [
+    "#ff00ff",
+    "#39ff14"
+  ],
+  "style_prompt": {
+    "illustration": "Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients.",
+    "photo": "Natural window light product photograph, muted warm tones, shallow depth of field, no text, no people."
+  },
+  "reference_dir": "references",
+  "thresholds": {
+    "palette_max_delta_e": 22.0,
+    "palette_min_covered_area": 0.8,
+    "forbidden_max_area": 0.01,
+    "forbidden_delta_e": 12.0,
+    "drift_margin": 1.25,
+    "drift_floor": 0.05,
+    "tone_max_z": 3.5
+  }
+}

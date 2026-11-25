@@ -1,0 +1,37 @@
+{
+  "$comment": "Reuse test, not a campaign. The winter-morning scene with nothing but data changed: one variant is the original, one swaps headline, colour layer and composition, one swaps the photograph for the FLUX.2 example the pipeline generated and a reviewer approved (import it first: see README). The renderer is not edited for any of it.",
+  "id": "aster-variation-test",
+  "page": "cinema.html",
+  "brand": "Aster Lane",
+  "asset": "assets/tea-sunburst.json",
+  "length_s": 10,
+  "copy": {
+    "label": "The winter table",
+    "headline": ["A slow cup", "for short days."],
+    "body": "Black tea with orange peel and clove, steeped for four minutes while the morning light is still low.",
+    "steep": { "temperature_c": 95, "minutes": 4 },
+    "cta": "Winter Blend No. 3 · In shops from 1 December"
+  },
+  "variants": [
+    { "id": "original", "layer": "night" },
+    {
+      "id": "clay-hold",
+      "layer": "clay",
+      "copy": { "headline": ["Hold the", "warmth."] },
+      "composition": { "zoom": 1.1, "night": 0.35, "headline": 0.85 }
+    },
+    {
+      "id": "flux-night",
+      "layer": "night",
+      "asset": "assets/flux-leaf.json",
+      "copy": { "headline": ["Steep it", "slow."] },
+      "composition": { "night": 0.2 }
+    }
+  ],
+  "formats": {
+    "feed": { "width": 1080, "height": 1350 },
+    "landscape": { "width": 1920, "height": 1080, "asset": "assets/tea-sunburst-landscape.json" }
+  },
+  "motion": [["clay-hold", "feed"]],
+  "print": []
+}

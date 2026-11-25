@@ -1,0 +1,51 @@
+{
+  "checks": [
+    {
+      "name": "forbidden_colour_area",
+      "value": 0.0,
+      "threshold": 0.01,
+      "comparison": "<=",
+      "passed": true,
+      "hard": true,
+      "detail": "share of pixels near a forbidden colour"
+    },
+    {
+      "name": "palette_fit",
+      "value": 1.0,
+      "threshold": 0.8,
+      "comparison": ">=",
+      "passed": true,
+      "hard": true,
+      "detail": "dominant-colour area within dE 22.0 of palette; worst dominant dE 17.4"
+    },
+    {
+      "name": "overlay_contrast",
+      "value": 10.57,
+      "threshold": 3.0,
+      "comparison": ">=",
+      "passed": true,
+      "hard": true,
+      "detail": "WCAG contrast, 5th percentile over the reserved text zone"
+    },
+    {
+      "name": "colour_drift",
+      "value": 0.4347,
+      "threshold": 0.6458,
+      "comparison": "<=",
+      "passed": true,
+      "hard": false,
+      "detail": "Jensen-Shannon distance to reference colour centroid"
+    },
+    {
+      "name": "tone_drift",
+      "value": 1.37,
+      "threshold": 3.5,
+      "comparison": "<=",
+      "passed": true,
+      "hard": false,
+      "detail": "worst z-score of lightness/chroma/edge statistics vs references"
+    }
+  ],
+  "hard_pass": true,
+  "warnings": []
+}

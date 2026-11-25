@@ -1,0 +1,31 @@
+/* The technical section after the film. Colours are the layer's own, set as custom properties by the page. */
+.explainer {
+  box-sizing: border-box;
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: clamp(4rem, 12vw, 9rem) max(1rem, env(safe-area-inset-right)) max(6rem, env(safe-area-inset-bottom)) max(1rem, env(safe-area-inset-left));
+  color: var(--text);
+  font: 400 1.0625rem/1.6 "DM Sans", system-ui, sans-serif;
+}
+.explainer h2, .explainer h3 { font-family: "Playfair Display", Georgia, serif; font-weight: 500; line-height: 1.15; margin: 0; }
+.explainer h2 { font-size: clamp(2rem, 6vw, 3.2rem); }
+.explainer h3 { font-size: 1.5rem; margin-top: 3.5rem; }
+.explainer p { margin: 1rem 0 0; }
+.explainer .lede { font-size: 1.2rem; color: var(--text); }
+.explainer code { font: 0.9em/1.4 ui-monospace, "SF Mono", Menlo, monospace; overflow-wrap: anywhere; }
+.flow { list-style: none; counter-reset: step; margin: 3rem 0 0; padding: 0; display: grid; gap: 0.75rem; grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr)); }
+.flow li { counter-increment: step; border-top: 1px solid var(--line); padding-top: 0.6rem; font-size: 0.9rem; color: var(--quiet); }
+.flow li::before { content: counter(step, decimal-leading-zero); display: block; font-size: 0.75rem; letter-spacing: 0.08em; color: var(--accent); }
+.flow b { display: block; color: var(--text); font-weight: 600; }
+.facts { margin: 1.5rem 0 0; display: grid; gap: 0.35rem 1.5rem; font-size: 0.9rem; }
+.facts + .facts { margin-top: 2rem; }
+.facts div { display: grid; grid-template-columns: minmax(7rem, 11rem) 1fr; gap: 1rem; border-top: 1px solid color-mix(in srgb, var(--line) 25%, transparent); padding-top: 0.35rem; }
+.facts dt { color: var(--quiet); }
+.facts dd { margin: 0; min-width: 0; }
+.swatch { display: inline-block; width: 0.8em; height: 0.8em; margin-right: 0.45em; vertical-align: -0.05em; border: 1px solid color-mix(in srgb, var(--line) 40%, transparent); }
+.demo { margin: 2rem 0 0; }
+.demo-stage { position: relative; width: min(100%, 22rem); aspect-ratio: 4 / 5; overflow: hidden; }
+.demo figcaption { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 1rem; margin-top: 1rem; font-size: 0.9rem; color: var(--quiet); }
+.demo input { flex: 1 1 12rem; accent-color: var(--accent); min-height: 2.75rem; }
+.demo output { font-variant-numeric: tabular-nums; color: var(--text); min-width: 6.5em; }
+@media (max-width: 30rem) { .facts div { grid-template-columns: 1fr; gap: 0; } }

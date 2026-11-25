@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "file": "aster-tea-banner-flux2-klein-4b-q4-s636537.png",
+      "sha256": "ae0ef9dbbb9cdfbcf9b94cdd9d557393e963a87b70cfb203e53bc0bfcbb99a80",
+      "candidate": "flux2-klein-4b-q4-s636537"
+    },
+    {
+      "file": "aster-tea-banner-flux2-klein-4b-q8-s636537.png",
+      "sha256": "d2117ac4d326581fde4db723284cea3104f676da6055a838caee4b8f3b690db8",
+      "candidate": "flux2-klein-4b-q8-s636537"
+    }
+  ]
+}

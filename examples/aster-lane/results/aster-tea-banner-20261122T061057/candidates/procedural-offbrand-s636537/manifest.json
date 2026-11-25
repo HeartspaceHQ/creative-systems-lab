@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "candidate_id": "procedural-offbrand-s636537",
+  "brief_hash": "cbd38338d4cbf5f2de3160546a1067af88a69ede683052feae065e3f86c7e29f",
+  "brand_hash": "0e90eb79c1d089b12b8700bc34fad3e14dc879cac3795d9da6bda848a03dde25",
+  "recipe": {
+    "pin": {
+      "backend": "procedural-offbrand",
+      "model_id": "csl-flat-shapes-v1",
+      "revision": "6808f4a93f92",
+      "quantize": null,
+      "tool_versions": {
+        "pillow": "13.0.0"
+      }
+    },
+    "prompt": "A single tea leaf and a ceramic cup seen from above on a plain table, with a large calm empty area in the lower right. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #1f2a44, paper #f4efe6, clay #c4623f, moss #5f7a4f, sand #e2c08d.",
+    "width": 320,
+    "height": 320,
+    "steps": 1,
+    "seed": 636537
+  },
+  "recipe_hash": "cf4794f4f02124952f694fc5fb5734b93254b8de0fe044a422435471005fa7e0",
+  "output": {
+    "path": "candidates/procedural-offbrand-s636537/image.png",
+    "sha256": "2fb7a14baf6e92aed646397202484ee4cb79e96f2c41be8f2956d4b9094a330a",
+    "bytes": 1923,
+    "width": 320,
+    "height": 320
+  },
+  "environment": {
+    "python": "3.14.6",
+    "platform": "macOS-15.8.1-arm64-arm-64bit-Mach-O",
+    "machine": "arm64"
+  },
+  "generation_seconds": 0.001,
+  "created_at": "2026-11-22T06:11:49.276377Z"
+}

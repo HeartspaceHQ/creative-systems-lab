@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "origin": "migrated",
+  "generated": {
+    "brand.json": "3ba8a2553701edb483cbd5f556c71c6eb1e23c24dda3063d095856684da36ad5",
+    "brief.json": "92ce2912b76cb1c4b911b7181d609f31c5dfe252347f5aaadb55d484f9d21c40",
+    "candidates/flux2-klein-4b-q4-s636536/evaluation.json": "4e209ee30ea207ab991d4427b865bc0f0697239a64d44cfc510e37a2519dce9e",
+    "candidates/flux2-klein-4b-q4-s636536/image.png": "8121323616f20acf212eb5656dd89204924693b68cd9d594aa206932bd9a459d",
+    "candidates/flux2-klein-4b-q4-s636536/manifest.json": "853e737ff644242a5eb8fe4ab7c5bba4b0875a58ca3c4a47ecd5d89cfc663c1c",
+    "candidates/flux2-klein-4b-q4-s636537/evaluation.json": "4d20c0b84e9f37084b0c859fb1303b1452818ea31a9edaae3ed00c6a2542e53e",
+    "candidates/flux2-klein-4b-q4-s636537/image.png": "d71ebcc5482adb070cb4cea5f32960a79695550ca24159f717d9fc3edef0cdcd",
+    "candidates/flux2-klein-4b-q4-s636537/manifest.json": "63cd2487e34faa8176f4b1cbae2430550241e1883a65a4b9af9a52159e2465d5",
+    "candidates/flux2-klein-4b-q4-s636538/evaluation.json": "61b154f07d16a4f3e486eca003ea645f8cf925c82751066659a27477ab697057",
+    "candidates/flux2-klein-4b-q4-s636538/image.png": "6a50bef5b0f5b8fa620cd3b589ee5d7dd71ad33738ec93de0e2eb7d3aac9a78f",
+    "candidates/flux2-klein-4b-q4-s636538/manifest.json": "21809569088d038bf11654d5717562326c3e836f30d65aecb1b0047089200f5d",
+    "candidates/flux2-klein-4b-q8-s636536/evaluation.json": "579e6b9a277ff0d8eaf9bdfbd7802b60ed0fd807dc05d7ebddb4fec37444caa1",
+    "candidates/flux2-klein-4b-q8-s636536/image.png": "3bfc17bc524660e663b0481873ee91f66a0013383cd88c3335eb927b3f0fc1f4",
+    "candidates/flux2-klein-4b-q8-s636536/manifest.json": "f9562e732e43a9246c76f16252451e0378bccf8e74edb613aeb465d2fc24fc6c",
+    "candidates/flux2-klein-4b-q8-s636537/evaluation.json": "5f160be5c84c78255911af4a7182a5a1c3812ee7a4a18ba8db721e4586aeee35",
+    "candidates/flux2-klein-4b-q8-s636537/image.png": "18bce046fc15b5824be7dde9ca50d25c36a85e3d918e3334dff107f183a71be7",
+    "candidates/flux2-klein-4b-q8-s636537/manifest.json": "47e083dd13a486d2d97230131dc0468761d3718c08f0dbf2a2b5b87536686742",
+    "candidates/flux2-klein-4b-q8-s636538/evaluation.json": "680aa056e1b3c9871fef8d5e2a6912c594d36b3293d1666e74815424f9e5a6d6",
+    "candidates/flux2-klein-4b-q8-s636538/image.png": "d6d70a6947811fe45d9d9cb7b15fc0377ff51e1c271d16f2609982814b5a48d9",
+    "candidates/flux2-klein-4b-q8-s636538/manifest.json": "60470c01ae3d4b889bbaacdce7639104308f747bc3b38cf09701a318224a020a",
+    "candidates/procedural-offbrand-s636536/evaluation.json": "41ee64cdeb94a2daa834fde4e8627b9e728f3ba3018a8926b2b21f4d03e7dcb7",
+    "candidates/procedural-offbrand-s636536/image.png": "d0cbd16e98736f5705f66ea73222c414fa801b069739d085cea970976e63b8ff",
+    "candidates/procedural-offbrand-s636536/manifest.json": "5c79f7873d5ee0fd4910f564292b82aa2296b42eb0e5cad265666896703efd2f",
+    "candidates/procedural-offbrand-s636537/evaluation.json": "b9a7160117d1d3f48a02fba58635860fc307b4f6745274fd9fc7cbf2819781c9",
+    "candidates/procedural-offbrand-s636537/image.png": "2fb7a14baf6e92aed646397202484ee4cb79e96f2c41be8f2956d4b9094a330a",
+    "candidates/procedural-offbrand-s636537/manifest.json": "69dfe4619af34e033353c562252d669936b5833ceeadb64c49f40f89525b1535",
+    "candidates/procedural-offbrand-s636538/evaluation.json": "32dce2655dc5f23df11b64ef8ff3f0232d3ff85ac3cf0b02becf7bd08b745be5",
+    "candidates/procedural-offbrand-s636538/image.png": "167c4dde98a41434300862c4b2bdd2d60956f4e5918d990f0248b1b458fb30ba",
+    "candidates/procedural-offbrand-s636538/manifest.json": "5c6d84fa9caa4e8cf223fd867b9ae5ac22407679925e4f97afcf2a05815df234",
+    "run.json": "9e111dc9fee3830d10ecc2ff66390fbc052bd14c4af65e39745ace8d977a0b05",
+    "selection.json": "3d8674b0893b8a04026a4e9b3f72e978a315bc024935369348a000426c7ebf10"
+  },
+  "exported": {
+    "export/aster-tea-banner-flux2-klein-4b-q4-s636537.json": "3c112895812c712d944064a08844d9dbf839875f352e7815b9ceb2029f70feb0",
+    "export/aster-tea-banner-flux2-klein-4b-q4-s636537.png": "ae0ef9dbbb9cdfbcf9b94cdd9d557393e963a87b70cfb203e53bc0bfcbb99a80",
+    "export/aster-tea-banner-flux2-klein-4b-q8-s636537.json": "045c1de3c27099224af823199fad6f7cca8da04f7d2f2b51dab9f1a84cca5562",
+    "export/aster-tea-banner-flux2-klein-4b-q8-s636537.png": "d2117ac4d326581fde4db723284cea3104f676da6055a838caee4b8f3b690db8",
+    "export/index.json": "6b541b1d4658239b1bf7bc80ae695127b2c96d77a452c1e3bfa9b93bb882ca55"
+  },
+  "decisions": {
+    "count": 3,
+    "head": "86a588cbdd698ae395692a6cbcb6e7166ad3ce17d936adff08365bde7dc9eed4"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "chosen": [
+    "flux2-klein-4b-q8",
+    "flux2-klein-4b-q4",
+    "procedural-offbrand"
+  ],
+  "excluded": []
+}

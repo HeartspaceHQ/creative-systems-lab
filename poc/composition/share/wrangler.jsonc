@@ -1,0 +1,18 @@
+// The share of the web export. Deploy with share/deploy.sh, never by hand: the script checks the
+// export first. ACCESS "public" serves it to anyone with the link; "private" asks for the password
+// that deploy.sh sets from Keychain.
+{
+  "name": "csl-winter-morning",
+  "vars": { "ACCESS": "public" },
+  "main": "../src/share-worker.ts",
+  "compatibility_date": "2026-11-01",
+  "workers_dev": true,
+  "preview_urls": false,
+  "assets": {
+    "directory": "../out/aster-winter-morning-sunburst/web",
+    "binding": "ASSETS",
+    // The Worker answers first, so in private mode no file is served without the password.
+    "run_worker_first": true
+  },
+  "observability": { "enabled": false }
+}

@@ -1,0 +1,158 @@
+{
+  "$comment": "Art direction per format: identical to winter-morning.json except the photographs. Feed and story use a square GPT Image 2.6 Sunburst image; landscape uses a Sunburst image composed for it (cup in the left third).",
+  "id": "aster-winter-morning-sunburst",
+  "page": "cinema.html",
+  "explainer": "design/explainer.json",
+  "brand": "Aster Lane",
+  "asset": "assets/tea-sunburst.json",
+  "length_s": 10,
+  "copy": {
+    "label": "The winter table",
+    "headline": [
+      "A slow cup",
+      "for short days."
+    ],
+    "body": "Black tea with orange peel and clove, steeped for four minutes while the morning light is still low.",
+    "steep": {
+      "temperature_c": 95,
+      "minutes": 4
+    },
+    "cta": "Winter Blend No. 3 · In shops from 1 December"
+  },
+  "variants": [
+    {
+      "id": "morning",
+      "layer": "night"
+    }
+  ],
+  "formats": {
+    "feed": {
+      "width": 1080,
+      "height": 1350
+    },
+    "story": {
+      "width": 1080,
+      "height": 1920
+    },
+    "landscape": {
+      "width": 1920,
+      "height": 1080,
+      "asset": "assets/tea-sunburst-landscape.json"
+    }
+  },
+  "motion": [
+    [
+      "morning",
+      "feed"
+    ],
+    [
+      "morning",
+      "story"
+    ],
+    [
+      "morning",
+      "landscape"
+    ]
+  ],
+  "print": [
+    [
+      "morning",
+      "feed"
+    ]
+  ],
+  "rhetoric": {
+    "situation": {
+      "exigence": "A seasonal blend is released on 1 December. People who already drink tea do not yet know it exists or why it belongs to this time of year.",
+      "audience": "Tea drinkers scrolling on a phone in the dark hours of early December, mostly before or after work. They pause for a second at most and watch without sound.",
+      "constraints": [
+        "Muted autoplay in a feed: the film must work without sound and from any frame a viewer joins on.",
+        "Three formats from one source: 4:5 feed, 9:16 story, 16:9 landscape.",
+        "Invented example brand; copy is fixed in the campaign and is not rewritten by the design.",
+        "Two generated photographs (GPT Image 2.6 Sunburst), each directed for its formats and approved by the project owner for this demonstration; everything else is code."
+      ],
+      "kairos": "The darkest weeks of the year, the days before the release. The moment the design answers is the low, late winter sunrise that the copy names: the design shows that moment arriving."
+    },
+    "criteria": [
+      {
+        "id": "kairos-moment",
+        "appeal": "kairos",
+        "criterion": "The film enacts the moment the copy names: it starts in the blue dark of a December morning and ends in low, warm light. The light is the argument for the time of year.",
+        "evidence": [
+          "warmth rises"
+        ],
+        "measure": {
+          "kind": "warmth_rises",
+          "from_s": 0.5,
+          "to_s": 9.5
+        }
+      },
+      {
+        "id": "kairos-date",
+        "appeal": "kairos",
+        "criterion": "The release date lands last and alone, like the date on a film poster, so the viewer leaves with when.",
+        "evidence": [
+          "cta legible on stage",
+          "cta inside safe area"
+        ]
+      },
+      {
+        "id": "kairos-medium",
+        "appeal": "kairos",
+        "criterion": "Made for muted autoplay and a one-second glance: the cup is in the first frame and the headline is read by 1 s, while the light still takes its time. The end state holds long enough to read.",
+        "evidence": [
+          "same bytes twice"
+        ]
+      },
+      {
+        "id": "pathos-presence",
+        "appeal": "pathos",
+        "criterion": "Enargeia: the viewer is placed at the table, not shown a product. The photograph fills the frame, the camera pushes slowly in and the light changes in the room.",
+        "evidence": []
+      },
+      {
+        "id": "pathos-restraint",
+        "appeal": "pathos",
+        "criterion": "The feeling is earned by the scene and not added: no exclamation, no music cue, no effect that is not a property of light, time or film.",
+        "evidence": []
+      },
+      {
+        "id": "logos-instruction",
+        "appeal": "logos",
+        "criterion": "The film carries the one practical fact a tea drinker needs: four minutes at 95 °C, shown as time passing.",
+        "evidence": [
+          "steep legible on stage",
+          "steep fits its line"
+        ]
+      },
+      {
+        "id": "logos-reading-path",
+        "appeal": "logos",
+        "criterion": "One reading path: label, headline, body, steeping time, then brand and date. Salience falls in that order.",
+        "evidence": [
+          "type scale display/body",
+          "headline legible on stage"
+        ]
+      },
+      {
+        "id": "ethos-craft",
+        "appeal": "ethos",
+        "criterion": "Craft shows character: a real serif, measured type, legible on the image everywhere, nothing cropped or overflowing in any format.",
+        "evidence": [
+          "legible on stage",
+          "fits its line",
+          "inside safe area",
+          "font loaded",
+          "embeds"
+        ]
+      },
+      {
+        "id": "ethos-honesty",
+        "appeal": "ethos",
+        "criterion": "Nothing is claimed that the brand cannot stand behind: the copy is the campaign's own, and the photograph's origin is recorded in the manifest.",
+        "evidence": [
+          "asset hash matches manifest"
+        ]
+      }
+    ]
+  }
+}

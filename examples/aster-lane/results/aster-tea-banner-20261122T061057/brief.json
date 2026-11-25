@@ -1,0 +1,19 @@
+{
+  "id": "aster-tea-banner",
+  "subject": "A single tea leaf and a ceramic cup seen from above on a plain table, with a large calm empty area in the lower right",
+  "kind": "illustration",
+  "width": 320,
+  "height": 320,
+  "candidates": 3,
+  "commercial_use": true,
+  "max_memory_gb": null,
+  "base_seed": null,
+  "overlay": {
+    "x": 0.55,
+    "y": 0.7,
+    "w": 0.4,
+    "h": 0.22,
+    "text_colour": "#1f2a44",
+    "large_text": true
+  }
+}

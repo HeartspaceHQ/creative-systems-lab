@@ -1,0 +1,28 @@
+{
+  "path": "assets/tea-sunburst-landscape.png",
+  "sha256": "2ab2ce0f527caf38dfd5a616aea0ece26a1a890114b427848f219e708b2afa97",
+  "focus": {
+    "x": 0.23,
+    "y": 0.52
+  },
+  "light": {
+    "x": 0.12,
+    "y": 0.16
+  },
+  "source": {
+    "run_id": "aster-editorial-tea-landscape-20261122T131804",
+    "candidate_id": "gpt-image-2.6-sunburst-s611713",
+    "recipe_hash": "a2105bb5ea62f7ad2d208398994b451cd7f70ad6c282a68ed2b7119380efddc7",
+    "model": "openai/gpt-image-2.6-sunburst quality high",
+    "licence": "OpenAI Services Agreement 4.1: output owned by the API customer (Heartspace organisation); no open licence, see docs/image-rights.md",
+    "approved_by": "project owner, 2026-11-22: approved for the winter-morning demonstration, landscape",
+    "approved_for": [
+      "render",
+      "web"
+    ]
+  },
+  "use": [
+    "landscape"
+  ],
+  "alt": "A steaming glass cup of black tea on a linen cloth, lit by low sun from the left, with orange peel and a clove."
+}

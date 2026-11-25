@@ -1,0 +1,33 @@
+{
+  "name": "@creative-systems-lab/composition",
+  "version": "0.3.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit -p .",
+    "lint": "eslint src test",
+    "test": "node --test \"test/*.test.ts\"",
+    "test:demo": "node --test test/demo.e2e.ts",
+    "test:variation": "node --test test/variation.e2e.ts",
+    "render": "node src/render.ts design/winter-morning-sunburst.json",
+    "render:stills": "node src/render.ts design/winter-morning-sunburst.json --stills",
+    "web:export": "node src/web-export.ts design/winter-morning-sunburst.json",
+    "web:check": "node src/web-check.ts design/winter-morning-sunburst.json",
+    "web:perf": "node src/web-perf.ts design/winter-morning-sunburst.json",
+    "test:project": "node --test test/project.e2e.ts",
+    "test:studio": "node --test test/studio.e2e.ts"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@playwright/test": "1.65.1",
+    "@types/node": "26.6.6",
+    "eslint": "10.15.0",
+    "globals": "17.14.0",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.73.0"
+  }
+}

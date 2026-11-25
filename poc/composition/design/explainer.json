@@ -1,0 +1,55 @@
+{
+  "$comment": "The technical section after the campaign on the web page. Prose only; every number, hash and name on the page is read from the render report and the asset manifests at export time.",
+  "heading": "How this page was made",
+  "intro": "This is a work sample of Creative Systems Lab. The film above is not a video: it is a scene drawn in the browser, from the same source that rendered the stills, the print PDF, the MP4 and the GIF.",
+  "sections": [
+    {
+      "id": "problem",
+      "heading": "The problem",
+      "body": [
+        "A campaign is one idea delivered in many media: a scrolling page, social stills, a printed sheet, a film. Each is usually redrawn by hand, and the versions drift apart. Generated images add a second problem: they arrive without a record of how they were made or who decided they could be used."
+      ]
+    },
+    {
+      "id": "generated",
+      "heading": "What a model made",
+      "body": [
+        "Only the photograph. It was generated in a recorded run and approved by a person before the engine was allowed to place it. The engine refuses an image whose bytes differ from its manifest, or whose approval does not cover the medium."
+      ],
+      "facts": "asset"
+    },
+    {
+      "id": "code",
+      "heading": "What is code",
+      "body": [
+        "Everything else: the type, the layout for each screen shape, the light through the window, the scrim behind the words, the grain and the timing. It is SVG, HTML and CSS, and its colours and type come from design tokens, not from the image."
+      ],
+      "facts": "layer"
+    },
+    {
+      "id": "media",
+      "heading": "One scene, every medium",
+      "body": [
+        "The scene is a pure function of time. A renderer calls seek(t) thirty times per second and encodes the frames; a print export calls it once at the end; this page calls it from your scroll position. Drag the control to draw the same scene at any moment of the film."
+      ],
+      "facts": "outputs",
+      "demo": true
+    },
+    {
+      "id": "cost",
+      "heading": "What the page costs",
+      "body": [
+        "The scene is lighter than the film it replaces, but not faster to show. On a slowed phone it sends fewer bytes than the MP4, while it starts later: the page needs its fonts, its script and a photograph before it can draw, and a video needs only its first frame. The numbers below are the last measurement of this page, on a Mac slowed to a phone's network and CPU, not on a phone."
+      ],
+      "facts": "perf"
+    },
+    {
+      "id": "trust",
+      "heading": "Reproducible, traceable, approved",
+      "body": [
+        "Every render measures its own output: contrast of each line against the pixels behind it, text inside the safe area, fonts embedded in the PDF, and the same bytes from two fresh pages. Technical checks support a design; they do not approve it. That judgement stays with a person, and the report says so."
+      ],
+      "facts": "checks"
+    }
+  ]
+}

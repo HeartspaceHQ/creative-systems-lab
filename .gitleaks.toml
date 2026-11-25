@@ -1,0 +1,10 @@
+# gitleaks configuration: the default rules, plus one narrow exception.
+# Model registry keys such as key="flux2-klein-4b-q8" are model names, not credentials; the
+# generic-api-key rule matches them because the field is called "key".
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "model registry keys"
+regexTarget = "line"
+regexes = ['''key\s*=\s*"flux2-klein-[0-9a-z-]+"''']

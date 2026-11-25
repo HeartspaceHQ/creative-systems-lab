@@ -1,0 +1,53 @@
+{
+  "comment": "The fonts CSL Studio offers. Each file is a Latin subset with a variable weight axis, under the SIL Open Font License 1.1 (licence text beside it). Role values set how the family is used as a headline, as body text and as a small label.",
+  "fonts": [
+    {
+      "family": "Playfair Display", "file": "PlayfairDisplay-latin-var.woff2", "licence": "OFL-PlayfairDisplay.txt", "weights": [400, 900], "style": "serif",
+      "display": { "weight": 560, "tracking": -0.015, "leading": 0.98 },
+      "body": { "weight": 400, "tracking": 0, "leading": 1.4 },
+      "label": { "weight": 600, "tracking": 0.14, "leading": 1.2 }
+    },
+    {
+      "family": "DM Sans", "file": "DMSans-latin-var.woff2", "licence": "OFL-DMSans.txt", "weights": [100, 1000], "style": "sans",
+      "display": { "weight": 600, "tracking": -0.02, "leading": 1.04 },
+      "body": { "weight": 400, "tracking": 0, "leading": 1.32 },
+      "label": { "weight": 600, "tracking": 0.14, "leading": 1.2 }
+    },
+    {
+      "family": "Newsreader", "file": "Newsreader-latin-var.woff2", "licence": "OFL-Newsreader.txt", "weights": [200, 800], "style": "serif",
+      "display": { "weight": 500, "tracking": -0.01, "leading": 1.02 },
+      "body": { "weight": 400, "tracking": 0, "leading": 1.42 },
+      "label": { "weight": 600, "tracking": 0.12, "leading": 1.2 }
+    },
+    {
+      "family": "Fraunces", "file": "Fraunces-latin-var.woff2", "licence": "OFL-Fraunces.txt", "weights": [100, 900], "style": "serif",
+      "display": { "weight": 560, "tracking": -0.015, "leading": 1.0 },
+      "body": { "weight": 400, "tracking": 0, "leading": 1.42 },
+      "label": { "weight": 600, "tracking": 0.12, "leading": 1.2 }
+    },
+    {
+      "family": "Lora", "file": "Lora-latin-var.woff2", "licence": "OFL-Lora.txt", "weights": [400, 700], "style": "serif",
+      "display": { "weight": 600, "tracking": -0.01, "leading": 1.06 },
+      "body": { "weight": 400, "tracking": 0, "leading": 1.45 },
+      "label": { "weight": 600, "tracking": 0.12, "leading": 1.2 }
+    },
+    {
+      "family": "Figtree", "file": "Figtree-latin-var.woff2", "licence": "OFL-Figtree.txt", "weights": [300, 900], "style": "sans",
+      "display": { "weight": 600, "tracking": -0.02, "leading": 1.04 },
+      "body": { "weight": 400, "tracking": 0, "leading": 1.36 },
+      "label": { "weight": 600, "tracking": 0.14, "leading": 1.2 }
+    },
+    {
+      "family": "Inter", "file": "Inter-latin-var.woff2", "licence": "OFL-Inter.txt", "weights": [100, 900], "style": "sans",
+      "display": { "weight": 650, "tracking": -0.025, "leading": 1.04 },
+      "body": { "weight": 400, "tracking": 0, "leading": 1.36 },
+      "label": { "weight": 600, "tracking": 0.12, "leading": 1.2 }
+    },
+    {
+      "family": "Space Grotesk", "file": "SpaceGrotesk-latin-var.woff2", "licence": "OFL-SpaceGrotesk.txt", "weights": [300, 700], "style": "sans",
+      "display": { "weight": 600, "tracking": -0.02, "leading": 1.02 },
+      "body": { "weight": 400, "tracking": 0, "leading": 1.36 },
+      "label": { "weight": 600, "tracking": 0.12, "leading": 1.2 }
+    }
+  ]
+}

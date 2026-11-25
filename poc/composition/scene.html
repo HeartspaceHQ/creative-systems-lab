@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Aster Lane scene</title>
+<style>
+  @font-face { font-family: "Playfair Display"; src: url("fonts/PlayfairDisplay-latin-var.woff2") format("woff2"); font-weight: 400 900; }
+  @font-face { font-family: "DM Sans"; src: url("fonts/DMSans-latin-var.woff2") format("woff2"); font-weight: 100 1000; }
+  html, body { margin: 0; padding: 0; background: transparent; }
+  .scene { position: relative; overflow: hidden; }
+  .art { position: absolute; inset: 0; }
+  .text { position: absolute; inset: 0; }
+  .wordmark, .block { position: absolute; }
+  .block { display: flex; flex-direction: column; }
+  .headline .mask { display: block; overflow: hidden; padding-bottom: 0.06em; }
+  .headline .line { display: inline-block; white-space: nowrap; }
+  .row { display: flex; flex-wrap: wrap; }
+  .steep, .cta, .label { text-transform: none; }
+</style>
+</head>
+<body>
+<script type="module">
+  import { start } from "./src/kit.ts";
+  import { build } from "./src/scene.ts";
+  void start(build);
+</script>
+</body>
+</html>

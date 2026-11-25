@@ -1,0 +1,290 @@
+{
+  "set_id": "aster-hard-cases-v1",
+  "brief": "../brief.json",
+  "brand": "../brand.json",
+  "model": "flux2-klein-4b-q8",
+  "width": 320,
+  "height": 320,
+  "cases": [
+    {
+      "id": "good-01",
+      "category": "good",
+      "seed": 7000,
+      "prompt": "A single tea leaf and a ceramic cup seen from above on a plain table, with a large calm empty area in the lower right. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #1f2a44, paper #f4efe6, clay #c4623f, moss #5f7a4f, sand #e2c08d.",
+      "intent": "the brief's own prompt; only the seed varies"
+    },
+    {
+      "id": "good-02",
+      "category": "good",
+      "seed": 7001,
+      "prompt": "A single tea leaf and a ceramic cup seen from above on a plain table, with a large calm empty area in the lower right. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #1f2a44, paper #f4efe6, clay #c4623f, moss #5f7a4f, sand #e2c08d.",
+      "intent": "the brief's own prompt; only the seed varies"
+    },
+    {
+      "id": "good-03",
+      "category": "good",
+      "seed": 7002,
+      "prompt": "A single tea leaf and a ceramic cup seen from above on a plain table, with a large calm empty area in the lower right. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #1f2a44, paper #f4efe6, clay #c4623f, moss #5f7a4f, sand #e2c08d.",
+      "intent": "the brief's own prompt; only the seed varies"
+    },
+    {
+      "id": "good-04",
+      "category": "good",
+      "seed": 7003,
+      "prompt": "A single tea leaf and a ceramic cup seen from above on a plain table, with a large calm empty area in the lower right. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #1f2a44, paper #f4efe6, clay #c4623f, moss #5f7a4f, sand #e2c08d.",
+      "intent": "the brief's own prompt; only the seed varies"
+    },
+    {
+      "id": "good-05",
+      "category": "good",
+      "seed": 7004,
+      "prompt": "A single tea leaf and a ceramic cup seen from above on a plain table, with a large calm empty area in the lower right. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #1f2a44, paper #f4efe6, clay #c4623f, moss #5f7a4f, sand #e2c08d.",
+      "intent": "the brief's own prompt; only the seed varies"
+    },
+    {
+      "id": "good-06",
+      "category": "good",
+      "seed": 7005,
+      "prompt": "A single tea leaf and a ceramic cup seen from above on a plain table, with a large calm empty area in the lower right. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #1f2a44, paper #f4efe6, clay #c4623f, moss #5f7a4f, sand #e2c08d.",
+      "intent": "the brief's own prompt; only the seed varies"
+    },
+    {
+      "id": "good-07",
+      "category": "good",
+      "seed": 7006,
+      "prompt": "A single tea leaf and a ceramic cup seen from above on a plain table, with a large calm empty area in the lower right. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #1f2a44, paper #f4efe6, clay #c4623f, moss #5f7a4f, sand #e2c08d.",
+      "intent": "the brief's own prompt; only the seed varies"
+    },
+    {
+      "id": "good-08",
+      "category": "good",
+      "seed": 7007,
+      "prompt": "A single tea leaf and a ceramic cup seen from above on a plain table, with a large calm empty area in the lower right. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #1f2a44, paper #f4efe6, clay #c4623f, moss #5f7a4f, sand #e2c08d.",
+      "intent": "the brief's own prompt; only the seed varies"
+    },
+    {
+      "id": "subtle_composition-01",
+      "category": "subtle_composition",
+      "seed": 7008,
+      "prompt": "A single tea leaf and a ceramic cup seen from above on a plain table, the cup and leaf enlarged to fill the whole frame edge to edge with no empty space. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #1f2a44, paper #f4efe6, clay #c4623f, moss #5f7a4f, sand #e2c08d.",
+      "intent": "same subject, style and palette; composition breaks the brief (empty lower right)"
+    },
+    {
+      "id": "subtle_composition-02",
+      "category": "subtle_composition",
+      "seed": 7009,
+      "prompt": "A single tea leaf and a ceramic cup seen from above on a plain table, both placed in the lower right corner, with the upper left empty. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #1f2a44, paper #f4efe6, clay #c4623f, moss #5f7a4f, sand #e2c08d.",
+      "intent": "same subject, style and palette; composition breaks the brief (empty lower right)"
+    },
+    {
+      "id": "subtle_composition-03",
+      "category": "subtle_composition",
+      "seed": 7010,
+      "prompt": "A single tea leaf and a ceramic cup seen from above on a plain table, the cup cropped by the right edge of the frame and the leaf cropped by the bottom edge. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #1f2a44, paper #f4efe6, clay #c4623f, moss #5f7a4f, sand #e2c08d.",
+      "intent": "same subject, style and palette; composition breaks the brief (empty lower right)"
+    },
+    {
+      "id": "subtle_composition-04",
+      "category": "subtle_composition",
+      "seed": 7011,
+      "prompt": "A single tea leaf and a ceramic cup seen from a low side angle at table level instead of from above. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #1f2a44, paper #f4efe6, clay #c4623f, moss #5f7a4f, sand #e2c08d.",
+      "intent": "same subject, style and palette; composition breaks the brief (empty lower right)"
+    },
+    {
+      "id": "subtle_composition-05",
+      "category": "subtle_composition",
+      "seed": 7012,
+      "prompt": "A dense repeating pattern of many tea leaves and many ceramic cups seen from above, covering the entire frame. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #1f2a44, paper #f4efe6, clay #c4623f, moss #5f7a4f, sand #e2c08d.",
+      "intent": "same subject, style and palette; composition breaks the brief (empty lower right)"
+    },
+    {
+      "id": "subtle_composition-06",
+      "category": "subtle_composition",
+      "seed": 7013,
+      "prompt": "A single tea leaf and a ceramic cup seen from above, tilted at a steep diagonal, the cup in the lower right where the empty area should be. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #1f2a44, paper #f4efe6, clay #c4623f, moss #5f7a4f, sand #e2c08d.",
+      "intent": "same subject, style and palette; composition breaks the brief (empty lower right)"
+    },
+    {
+      "id": "subtle_subject-01",
+      "category": "subtle_subject",
+      "seed": 7014,
+      "prompt": "A single bicycle and a hanging lantern seen from above on a plain table, with a large calm empty area in the lower right. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #1f2a44, paper #f4efe6, clay #c4623f, moss #5f7a4f, sand #e2c08d.",
+      "intent": "right colours and style, wrong subject"
+    },
+    {
+      "id": "subtle_subject-02",
+      "category": "subtle_subject",
+      "seed": 7015,
+      "prompt": "A pair of scissors and a potted cactus seen from above on a plain table, with a large calm empty area in the lower right. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #1f2a44, paper #f4efe6, clay #c4623f, moss #5f7a4f, sand #e2c08d.",
+      "intent": "right colours and style, wrong subject"
+    },
+    {
+      "id": "subtle_subject-03",
+      "category": "subtle_subject",
+      "seed": 7016,
+      "prompt": "A wooden chair and a stack of books seen from above on a plain table, with a large calm empty area in the lower right. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #1f2a44, paper #f4efe6, clay #c4623f, moss #5f7a4f, sand #e2c08d.",
+      "intent": "right colours and style, wrong subject"
+    },
+    {
+      "id": "subtle_subject-04",
+      "category": "subtle_subject",
+      "seed": 7017,
+      "prompt": "A single fish and a small sailboat seen from above on a plain table, with a large calm empty area in the lower right. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #1f2a44, paper #f4efe6, clay #c4623f, moss #5f7a4f, sand #e2c08d.",
+      "intent": "right colours and style, wrong subject"
+    },
+    {
+      "id": "subtle_subject-05",
+      "category": "subtle_subject",
+      "seed": 7018,
+      "prompt": "A loaf of bread and a kitchen knife seen from above on a plain table, with a large calm empty area in the lower right. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #1f2a44, paper #f4efe6, clay #c4623f, moss #5f7a4f, sand #e2c08d.",
+      "intent": "right colours and style, wrong subject"
+    },
+    {
+      "id": "subtle_subject-06",
+      "category": "subtle_subject",
+      "seed": 7019,
+      "prompt": "A telescope and a crescent moon seen from above on a plain table, with a large calm empty area in the lower right. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #1f2a44, paper #f4efe6, clay #c4623f, moss #5f7a4f, sand #e2c08d.",
+      "intent": "right colours and style, wrong subject"
+    },
+    {
+      "id": "subtle_expression-01",
+      "category": "subtle_expression",
+      "seed": 7020,
+      "prompt": "A single tea leaf and a ceramic cup seen from above on a plain table, the cup has a cartoon face with an angry frown, with a large calm empty area in the lower right. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #1f2a44, paper #f4efe6, clay #c4623f, moss #5f7a4f, sand #e2c08d.",
+      "intent": "right colours and style, wrong expression or mood"
+    },
+    {
+      "id": "subtle_expression-02",
+      "category": "subtle_expression",
+      "seed": 7021,
+      "prompt": "A single tea leaf and a ceramic cup seen from above on a plain table, the leaf has a sad cartoon face with tears, with a large calm empty area in the lower right. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #1f2a44, paper #f4efe6, clay #c4623f, moss #5f7a4f, sand #e2c08d.",
+      "intent": "right colours and style, wrong expression or mood"
+    },
+    {
+      "id": "subtle_expression-03",
+      "category": "subtle_expression",
+      "seed": 7022,
+      "prompt": "A single tea leaf and a ceramic cup seen from above on a plain table in a tense, ominous mood, the cup tipped over with tea spilled, with a large calm empty area in the lower right. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #1f2a44, paper #f4efe6, clay #c4623f, moss #5f7a4f, sand #e2c08d.",
+      "intent": "right colours and style, wrong expression or mood"
+    },
+    {
+      "id": "subtle_expression-04",
+      "category": "subtle_expression",
+      "seed": 7023,
+      "prompt": "A single tea leaf and a ceramic cup seen from above on a plain table in a chaotic, frantic mood, with scattered shapes everywhere and a large calm empty area in the lower right. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #1f2a44, paper #f4efe6, clay #c4623f, moss #5f7a4f, sand #e2c08d.",
+      "intent": "right colours and style, wrong expression or mood"
+    },
+    {
+      "id": "near_tone-01",
+      "category": "near_tone",
+      "seed": 7024,
+      "prompt": "A single tea leaf and a ceramic cup seen from above on a plain table, with a large calm empty area in the lower right. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #1f2a44, paper #f4efe6, clay #e0452a, moss #7d8a3a, sand #e2c08d.",
+      "intent": "same subject and style; palette nudged away from the brand's hex values"
+    },
+    {
+      "id": "near_tone-02",
+      "category": "near_tone",
+      "seed": 7025,
+      "prompt": "A single tea leaf and a ceramic cup seen from above on a plain table, with a large calm empty area in the lower right. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #0a1030, paper #fffdf8, clay #c4623f, moss #5f7a4f, sand #e2c08d.",
+      "intent": "same subject and style; palette nudged away from the brand's hex values"
+    },
+    {
+      "id": "near_tone-03",
+      "category": "near_tone",
+      "seed": 7026,
+      "prompt": "A single tea leaf and a ceramic cup seen from above on a plain table, with a large calm empty area in the lower right. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #1f2a44, paper #f4efe6, clay #b8431f, moss #5f7a4f, sand #d8a820.",
+      "intent": "same subject and style; palette nudged away from the brand's hex values"
+    },
+    {
+      "id": "near_tone-04",
+      "category": "near_tone",
+      "seed": 7027,
+      "prompt": "A single tea leaf and a ceramic cup seen from above on a plain table, with a large calm empty area in the lower right. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #1f2a44, paper #f4efe6, clay #c4623f, moss #3f8f8a, sand #e2c08d.",
+      "intent": "same subject and style; palette nudged away from the brand's hex values"
+    },
+    {
+      "id": "near_tone-05",
+      "category": "near_tone",
+      "seed": 7028,
+      "prompt": "A single tea leaf and a ceramic cup seen from above on a plain table, with a large calm empty area in the lower right. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #2a2a52, paper #f2f6fa, clay #c4623f, moss #5f7a4f, sand #d9c9a0.",
+      "intent": "same subject and style; palette nudged away from the brand's hex values"
+    },
+    {
+      "id": "near_tone-06",
+      "category": "near_tone",
+      "seed": 7029,
+      "prompt": "A single tea leaf and a ceramic cup seen from above on a plain table, with a large calm empty area in the lower right. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #26334f, paper #efe9dc, clay #cf7a4f, moss #6f8a58, sand #e8cd9c.",
+      "intent": "same subject and style; palette nudged away from the brand's hex values"
+    },
+    {
+      "id": "wrong_light-01",
+      "category": "wrong_light",
+      "seed": 7030,
+      "prompt": "A single tea leaf and a ceramic cup seen from above on a plain table, with a large calm empty area in the lower right, lit with dramatic night lighting with a single hard spotlight, deep black shadows and very high contrast. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #1f2a44, paper #f4efe6, clay #c4623f, moss #5f7a4f, sand #e2c08d.",
+      "intent": "same subject, style and palette; lighting contradicts the calm brand look"
+    },
+    {
+      "id": "wrong_light-02",
+      "category": "wrong_light",
+      "seed": 7031,
+      "prompt": "A single tea leaf and a ceramic cup seen from above on a plain table, with a large calm empty area in the lower right, lit with harsh midday sun casting long hard-edged shadows across the table. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #1f2a44, paper #f4efe6, clay #c4623f, moss #5f7a4f, sand #e2c08d.",
+      "intent": "same subject, style and palette; lighting contradicts the calm brand look"
+    },
+    {
+      "id": "wrong_light-03",
+      "category": "wrong_light",
+      "seed": 7032,
+      "prompt": "A single tea leaf and a ceramic cup seen from above on a plain table, with a large calm empty area in the lower right, lit with dim, moody candlelight, most of the frame in darkness. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #1f2a44, paper #f4efe6, clay #c4623f, moss #5f7a4f, sand #e2c08d.",
+      "intent": "same subject, style and palette; lighting contradicts the calm brand look"
+    },
+    {
+      "id": "wrong_light-04",
+      "category": "wrong_light",
+      "seed": 7033,
+      "prompt": "A single tea leaf and a ceramic cup seen from above on a plain table, with a large calm empty area in the lower right, lit with strong glowing backlight with lens flare and a hazy bloom. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #1f2a44, paper #f4efe6, clay #c4623f, moss #5f7a4f, sand #e2c08d.",
+      "intent": "same subject, style and palette; lighting contradicts the calm brand look"
+    },
+    {
+      "id": "wrong_light-05",
+      "category": "wrong_light",
+      "seed": 7034,
+      "prompt": "A single tea leaf and a ceramic cup seen from above on a plain table, with a large calm empty area in the lower right, lit with dark vignette, heavy shadows in all four corners, theatrical lighting. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #1f2a44, paper #f4efe6, clay #c4623f, moss #5f7a4f, sand #e2c08d.",
+      "intent": "same subject, style and palette; lighting contradicts the calm brand look"
+    },
+    {
+      "id": "wrong_light-06",
+      "category": "wrong_light",
+      "seed": 7035,
+      "prompt": "A single tea leaf and a ceramic cup seen from above on a plain table, with a large calm empty area in the lower right, lit with overexposed, washed-out bright light with almost no shadow detail. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #1f2a44, paper #f4efe6, clay #c4623f, moss #5f7a4f, sand #e2c08d.",
+      "intent": "same subject, style and palette; lighting contradicts the calm brand look"
+    },
+    {
+      "id": "clear_wrong-01",
+      "category": "clear_wrong",
+      "seed": 7036,
+      "prompt": "A glossy 3D render of a sports car in neon magenta and electric green on a wet street at night, glowing gradients",
+      "intent": "clearly off brand in colour, style and subject"
+    },
+    {
+      "id": "clear_wrong-02",
+      "category": "clear_wrong",
+      "seed": 7037,
+      "prompt": "A busy realistic photograph of a crowded street market with signs and text, saturated colours",
+      "intent": "clearly off brand in colour, style and subject"
+    },
+    {
+      "id": "clear_wrong-03",
+      "category": "clear_wrong",
+      "seed": 7038,
+      "prompt": "A cyberpunk neon skyline in hot pink and acid green with lens flare and chrome lettering",
+      "intent": "clearly off brand in colour, style and subject"
+    },
+    {
+      "id": "clear_wrong-04",
+      "category": "clear_wrong",
+      "seed": 7039,
+      "prompt": "A hyper-detailed oil painting of a stormy ocean in deep purple and bright yellow",
+      "intent": "clearly off brand in colour, style and subject"
+    }
+  ]
+}

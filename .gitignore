@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.pyc
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+*.egg-info/
+.DS_Store
+# Generated runs stay local. Curated examples live in examples/ and are committed on purpose.
+runs/
+*.safetensors
+*.gguf
+*.ckpt
+.env
+node_modules/
+web/test-results/
+web/playwright-report/
+# Budget approvals name a person and the ledger records spend; both stay local.
+budgets/
+# CSL Studio's brands, projects, images and deliveries (csl serve --studio) stay local.
+/studio/
+*.tsbuildinfo

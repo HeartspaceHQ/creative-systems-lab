@@ -1,0 +1,13 @@
+/* The editorial scene's styles: one file for the renderer's page and the studio preview. */
+@font-face { font-family: "Playfair Display"; src: url("fonts/PlayfairDisplay-latin-var.woff2") format("woff2"); font-weight: 400 900; }
+@font-face { font-family: "DM Sans"; src: url("fonts/DMSans-latin-var.woff2") format("woff2"); font-weight: 100 1000; }
+.scene { position: relative; overflow: hidden; }
+.art, .text { position: absolute; inset: 0; }
+.masthead, .block { position: absolute; }
+.masthead { display: flex; justify-content: space-between; align-items: baseline; }
+.block { display: flex; flex-direction: column; }
+.kicker-row { display: flex; align-items: center; }
+.kicker-mark { display: block; flex: none; transform-origin: left center; }
+.headline .mask { display: block; overflow: hidden; padding-bottom: 0.08em; }
+.headline .line { display: inline-block; white-space: nowrap; }
+.foot { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 0 2em; }

@@ -1,0 +1,16 @@
+{
+  "path": "assets/tea.png",
+  "sha256": "edbba5cdc75bacf500205a6180bb8d632316fa1be2b3f18f8f9f7d7516fe61bd",
+  "focus": {
+    "x": 0.5,
+    "y": 0.56
+  },
+  "source": {
+    "run_id": "aster-editorial-tea-20261122T095558",
+    "candidate_id": "flux2-klein-4b-q8-s589751",
+    "recipe_hash": "cf8c95b1dc15f2ee42ccea9ec7411e28950eb09bbc2895ebcf4a3fb96cb97cea",
+    "model": "black-forest-labs/FLUX.2-klein-4B@e7b7dc27f91d q8",
+    "licence": "Apache-2.0 (FLUX.2 klein 4B)",
+    "approved_by": "pending: chosen by Claude for the PoC, awaiting human review"
+  }
+}

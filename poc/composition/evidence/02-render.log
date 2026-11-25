@@ -1,0 +1,42 @@
+ok   contrast day.text/ground  ink on paper 12.45:1, floor 4.5:1
+ok   contrast day.quiet/ground  moss-deep on paper 5.41:1, floor 4.5:1
+ok   contrast day.line/ground  ink on paper 12.45:1, floor 3.0:1
+ok   contrast day.accent/ground  clay on paper 3.55:1, floor 3.0:1
+ok   contrast night.text/ground  paper on ink 12.45:1, floor 4.5:1
+ok   contrast night.quiet/ground  sand on ink 8.25:1, floor 4.5:1
+ok   contrast night.line/ground  paper on ink 12.45:1, floor 3.0:1
+ok   contrast night.accent/ground  sand on ink 8.25:1, floor 3.0:1
+ok   contrast clay.text/ground  paper on rust 5.30:1, floor 4.5:1
+ok   contrast clay.quiet/ground  paper on rust 5.30:1, floor 4.5:1
+ok   contrast clay.line/ground  paper on rust 5.30:1, floor 3.0:1
+ok   contrast clay.accent/ground  sand on rust 3.52:1, floor 3.0:1
+ok   type roles distinct  display Playfair Display, body DM Sans
+ok   asset hash matches manifest  a7196318cf4f95db from aster-winter-leaves-20261122T093633/flux2-klein-4b-q8-s794342
+ok   day-feed.png  
+ok   day-story.png  
+ok   day-landscape.png  
+ok   day-banner.png  
+ok   night-feed.png  
+ok   night-story.png  
+ok   night-landscape.png  
+ok   night-banner.png  
+ok   clay-feed.png  
+ok   clay-story.png  
+ok   clay-landscape.png  
+ok   clay-banner.png  
+ok   night-headline-feed.png  
+ok   night-headline-story.png  
+ok   night-headline-landscape.png  
+ok   night-headline-banner.png  
+ok   same bytes twice at t=end  40c9a9d88cc04c11 / 40c9a9d88cc04c11
+ok   same bytes twice at t=2.5  c24baaa355f0565d / c24baaa355f0565d
+ok   day-feed.mp4 + .gif
+ok   night-story.mp4 + .gif
+ok   clay-landscape.mp4 + .gif
+ok   pdf embeds Playfair Display
+ok   pdf embeds DM Sans
+ok   pdf embeds DM Sans
+355/355 technical checks passed
+Technical checks do not judge the design. Visual approval is a human decision.
+asset flux2-klein-4b-q8-s794342, approval: pending: chosen by Claude for the PoC, awaiting human review
+rendered in 50.5 s

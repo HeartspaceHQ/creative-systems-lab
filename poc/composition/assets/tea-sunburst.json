@@ -1,0 +1,29 @@
+{
+  "path": "assets/tea-sunburst.png",
+  "sha256": "a10639799b502dd6aa1da5ce74067f3c0be98450e57b94c54d41647fadf5929c",
+  "focus": {
+    "x": 0.65,
+    "y": 0.5
+  },
+  "light": {
+    "x": 0.12,
+    "y": 0.16
+  },
+  "source": {
+    "run_id": "aster-editorial-tea-20261122T120454",
+    "candidate_id": "gpt-image-2.6-sunburst-s337839",
+    "recipe_hash": "5bbdc2e14e44d2469b3c364b22eece60bea543ce4bf2379421b44e7531906b41",
+    "model": "openai/gpt-image-2.6-sunburst quality high",
+    "licence": "OpenAI Services Agreement 4.1: output owned by the API customer (Heartspace organisation); no open licence, see docs/image-rights.md",
+    "approved_by": "project owner, 2026-11-22: approved for the winter-morning demonstration, feed and story",
+    "approved_for": [
+      "render",
+      "web"
+    ]
+  },
+  "use": [
+    "feed",
+    "story"
+  ],
+  "alt": "A glass cup of black tea on a linen cloth in low morning light, with orange peel and cloves beside it."
+}

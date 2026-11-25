@@ -1,0 +1,16 @@
+{
+  "path": "assets/leaves.png",
+  "sha256": "a7196318cf4f95dbf6819cd6997087cb8885ed12f662daa4157906bc68e85a59",
+  "focus": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "source": {
+    "run_id": "aster-winter-leaves-20261122T093633",
+    "candidate_id": "flux2-klein-4b-q8-s794342",
+    "recipe_hash": "8ae057957fa30a72cff379a04c7e0ba491fbf3957c2ff8616603a28b0f613734",
+    "model": "black-forest-labs/FLUX.2-klein-4B@e7b7dc27f91d q8",
+    "licence": "Apache-2.0 (FLUX.2 klein 4B)",
+    "approved_by": "pending: chosen by Claude for the PoC, awaiting human review"
+  }
+}

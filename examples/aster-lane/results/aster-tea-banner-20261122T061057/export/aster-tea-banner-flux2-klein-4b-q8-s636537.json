@@ -1,0 +1,106 @@
+{
+  "file": "aster-tea-banner-flux2-klein-4b-q8-s636537.png",
+  "sha256": "d2117ac4d326581fde4db723284cea3104f676da6055a838caee4b8f3b690db8",
+  "source_image_sha256": "18bce046fc15b5824be7dde9ca50d25c36a85e3d918e3334dff107f183a71be7",
+  "manifest": {
+    "schema_version": 1,
+    "candidate_id": "flux2-klein-4b-q8-s636537",
+    "brief_hash": "cbd38338d4cbf5f2de3160546a1067af88a69ede683052feae065e3f86c7e29f",
+    "brand_hash": "0e90eb79c1d089b12b8700bc34fad3e14dc879cac3795d9da6bda848a03dde25",
+    "recipe": {
+      "pin": {
+        "backend": "flux2-klein-4b-q8",
+        "model_id": "black-forest-labs/FLUX.2-klein-4B",
+        "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+        "quantize": 8,
+        "tool_versions": {
+          "mflux": "0.19.2",
+          "mlx": "0.32.2"
+        }
+      },
+      "prompt": "A single tea leaf and a ceramic cup seen from above on a plain table, with a large calm empty area in the lower right. Flat vector editorial illustration, simple geometric shapes, limited warm palette, generous empty space, no text, no gradients. Colour palette: ink #1f2a44, paper #f4efe6, clay #c4623f, moss #5f7a4f, sand #e2c08d.",
+      "width": 320,
+      "height": 320,
+      "steps": 8,
+      "seed": 636537
+    },
+    "recipe_hash": "f8f19f47113aec69b3c8853a3b33bf21c5f3b1dd6311a8951dac9a89d0f12c38",
+    "output": {
+      "path": "candidates/flux2-klein-4b-q8-s636537/image.png",
+      "sha256": "18bce046fc15b5824be7dde9ca50d25c36a85e3d918e3334dff107f183a71be7",
+      "bytes": 54280,
+      "width": 320,
+      "height": 320
+    },
+    "environment": {
+      "python": "3.14.6",
+      "platform": "macOS-15.8.1-arm64-arm-64bit-Mach-O",
+      "machine": "arm64"
+    },
+    "generation_seconds": 8.176,
+    "created_at": "2026-11-22T06:11:14.078356Z"
+  },
+  "evaluation": {
+    "checks": [
+      {
+        "name": "forbidden_colour_area",
+        "value": 0.0,
+        "threshold": 0.01,
+        "comparison": "<=",
+        "passed": true,
+        "hard": true,
+        "detail": "share of pixels near a forbidden colour"
+      },
+      {
+        "name": "palette_fit",
+        "value": 1.0,
+        "threshold": 0.8,
+        "comparison": ">=",
+        "passed": true,
+        "hard": true,
+        "detail": "dominant-colour area within dE 22.0 of palette; worst dominant dE 14.6"
+      },
+      {
+        "name": "overlay_contrast",
+        "value": 9.19,
+        "threshold": 3.0,
+        "comparison": ">=",
+        "passed": true,
+        "hard": true,
+        "detail": "WCAG contrast, 5th percentile over the reserved text zone"
+      },
+      {
+        "name": "colour_drift",
+        "value": 0.3771,
+        "threshold": 0.6458,
+        "comparison": "<=",
+        "passed": true,
+        "hard": false,
+        "detail": "Jensen-Shannon distance to reference colour centroid"
+      },
+      {
+        "name": "tone_drift",
+        "value": 2.02,
+        "threshold": 3.5,
+        "comparison": "<=",
+        "passed": true,
+        "hard": false,
+        "detail": "worst z-score of lightness/chroma/edge statistics vs references"
+      }
+    ],
+    "hard_pass": true,
+    "warnings": []
+  },
+  "decision": {
+    "candidate_id": "flux2-klein-4b-q8-s636537",
+    "verdict": "approve",
+    "reviewer": "demo-reviewer",
+    "note": "clean layout, leaf readable, empty lower right for headline",
+    "override": false,
+    "decided_at": "2026-11-22T06:12:48.959851Z"
+  },
+  "model_licence": {
+    "name": "Apache-2.0",
+    "commercial_use": true
+  }
+}

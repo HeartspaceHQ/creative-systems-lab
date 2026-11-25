@@ -1,0 +1,19 @@
+{
+  "$comment": "The fresh-clone demo: one variant, one format, stills only, on the FLUX.2 klein image (Apache-2.0) that is committed in examples/ and imported by test/demo.e2e.ts. Needs no keys, no git-ignored file and no ffmpeg.",
+  "id": "aster-demo",
+  "page": "cinema.html",
+  "brand": "Aster Lane",
+  "asset": "assets/flux-leaf.json",
+  "length_s": 10,
+  "copy": {
+    "label": "The winter table",
+    "headline": ["Steep it", "slow."],
+    "body": "Black tea with orange peel and clove, steeped for four minutes while the morning light is still low.",
+    "steep": { "temperature_c": 95, "minutes": 4 },
+    "cta": "Winter Blend No. 3 · In shops from 1 December"
+  },
+  "variants": [{ "id": "flux-night", "layer": "night", "composition": { "night": 0.2 } }],
+  "formats": { "feed": { "width": 1080, "height": 1350 } },
+  "motion": [],
+  "print": []
+}

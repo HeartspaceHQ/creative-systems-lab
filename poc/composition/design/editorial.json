@@ -1,0 +1,23 @@
+{
+  "$comment": "Editorial PoC: one photographic asset, one typeset design, three formats from the same source. Copy and colour come from the same tokens as the first campaign.",
+  "id": "aster-editorial-tea",
+  "page": "editorial.html",
+  "brand": "Aster Lane",
+  "asset": "assets/tea.json",
+  "copy": {
+    "folio": "Journal · No. 3 · Winter",
+    "label": "The winter table",
+    "headline": ["A slow cup", "for short days."],
+    "body": "Black tea with orange peel and clove, steeped for four minutes while the morning light is still low.",
+    "steep": { "temperature_c": 95, "minutes": 4 },
+    "cta": "Winter Blend No. 3 · In shops from 1 December"
+  },
+  "variants": [{ "id": "day", "layer": "day" }],
+  "formats": {
+    "feed": { "width": 1080, "height": 1350 },
+    "story": { "width": 1080, "height": 1920 },
+    "landscape": { "width": 1920, "height": 1080 }
+  },
+  "motion": [["day", "feed"], ["day", "story"], ["day", "landscape"]],
+  "print": [["day", "feed"], ["day", "story"], ["day", "landscape"]]
+}

@@ -1,0 +1,5 @@
+# Generated image assets stay local; the manifest (hash + provenance) is committed.
+assets/*.png
+build/
+out/
+node_modules

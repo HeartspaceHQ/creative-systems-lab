@@ -1,0 +1,10 @@
+{
+  "id": "aster-tea-photo",
+  "subject": "A ceramic cup of tea and a single tea leaf on a wooden table, with calm empty space in the lower right",
+  "kind": "photo",
+  "width": 320,
+  "height": 320,
+  "candidates": 3,
+  "commercial_use": true,
+  "overlay": {"x": 0.55, "y": 0.7, "w": 0.4, "h": 0.22, "text_colour": "#1f2a44", "large_text": true}
+}

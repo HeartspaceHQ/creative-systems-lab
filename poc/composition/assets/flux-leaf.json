@@ -1,0 +1,24 @@
+{
+  "path": "assets/flux-leaf.png",
+  "sha256": "d2117ac4d326581fde4db723284cea3104f676da6055a838caee4b8f3b690db8",
+  "focus": {
+    "x": 0.35,
+    "y": 0.35
+  },
+  "source": {
+    "run_id": "aster-tea-banner-20261122T061057",
+    "candidate_id": "flux2-klein-4b-q8-s636537",
+    "recipe_hash": "f8f19f47113aec69b3c8853a3b33bf21c5f3b1dd6311a8951dac9a89d0f12c38",
+    "model": "black-forest-labs/FLUX.2-klein-4B@e7b7dc27f91d (flux2-klein-4b-q8)",
+    "licence": "Apache-2.0",
+    "approved_by": "demo-reviewer, 2026-11-22: clean layout, leaf readable, empty lower right for headline",
+    "approved_for": [
+      "render"
+    ]
+  },
+  "use": [
+    "feed",
+    "landscape"
+  ],
+  "alt": "A single tea leaf and a ceramic cup seen from above on a plain table, with a large calm empty area in the lower right."
+}

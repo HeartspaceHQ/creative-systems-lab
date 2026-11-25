@@ -1,0 +1,47 @@
+name: ci
+on:
+  push:
+  pull_request:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.11", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - uses: actions/setup-node@v4
+        with:
+          # The composition engine, which the studio's end-to-end test renders through, needs Node 24+.
+          node-version: "26"
+          cache: npm
+          cache-dependency-path: |
+            web/package-lock.json
+            poc/composition/package-lock.json
+      - run: pip install -e ".[dev]"
+      - run: (cd web && npm ci --no-audit --no-fund && npx playwright install-deps chromium)
+      - run: scripts/check.sh
+  composition:
+    # The composition engine on its own, from a fresh checkout and without keys: typecheck, lint, unit
+    # tests, and one still rendered from the committed FLUX.2 klein example with every check passing.
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: poc/composition
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "26"
+          cache: npm
+          cache-dependency-path: poc/composition/package-lock.json
+      - run: npm ci --no-audit --no-fund
+      - run: npm run typecheck
+      - run: npm run lint
+      - run: npm test
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:demo
+      - run: npm run test:project

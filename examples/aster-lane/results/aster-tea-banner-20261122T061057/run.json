@@ -1,0 +1,19 @@
+{
+  "run_id": "aster-tea-banner-20261122T061057",
+  "brief_hash": "cbd38338d4cbf5f2de3160546a1067af88a69ede683052feae065e3f86c7e29f",
+  "brand_hash": "0e90eb79c1d089b12b8700bc34fad3e14dc879cac3795d9da6bda848a03dde25",
+  "started_at": "2026-11-22T06:10:57.629589+00:00",
+  "finished_at": "2026-11-22T06:11:49.288543+00:00",
+  "candidates": [
+    "flux2-klein-4b-q4-s636536",
+    "flux2-klein-4b-q4-s636537",
+    "flux2-klein-4b-q4-s636538",
+    "flux2-klein-4b-q8-s636536",
+    "flux2-klein-4b-q8-s636537",
+    "flux2-klein-4b-q8-s636538",
+    "procedural-offbrand-s636536",
+    "procedural-offbrand-s636537",
+    "procedural-offbrand-s636538"
+  ],
+  "reference_images": 4
+}
